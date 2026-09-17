@@ -10,7 +10,7 @@
                 Person p2 = new Person(72, 70 );
                 System.out.println(p2.age);
 
-                Person p3 = p2.Call_Priavte();
+                Person p3 = p2.Call_Private();
 
                 Student s1 = new Student();
                 s1.age=20;

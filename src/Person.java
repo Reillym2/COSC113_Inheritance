@@ -37,7 +37,7 @@ public class Person {
 
 
 
-    public Person Call_Priavte() {
+    public Person Call_Private() {
         Person p3 = new Person(72, 70, "Back", "Barack Obama", 170);
         return p3;
     }
