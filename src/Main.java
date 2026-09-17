@@ -22,9 +22,10 @@
 
                 I1.Subject = "COSC-113" ;
                 I1.Time = 12;
+                I1.age= 25;
 
-                System.out.println("He is " +I1.age);
+                System.out.println("The teacher is " +I1.age);
                 System.out.println("He teaches " + I1.Subject);
-                System.out.println("He teaches at " + I1.Time + "PM");
+                System.out.println("He teaches at " + I1.Time + " PM");
     }
 }
