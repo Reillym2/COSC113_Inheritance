@@ -8,7 +8,7 @@
 //        Person p2 = new Person(72, 70, "Back", "Barack Obama", 170 );
 //        System.out.println(p2.name);
                 Person p2 = new Person(72, 70 );
-                System.out.println(p2.name);
+                System.out.println(p2.age);
 
                 Person p3 = p2.Call_Priavte();
 
@@ -19,11 +19,12 @@
                 System.out.println("-----------------");
 
                 Instructor I1 = new Instructor();
-                I1.Age = 30;
-                I1.Name = "Dillon";
+
                 I1.Class = "COSC-113" ;
-                System.out.println("The Instructors name is " + I1.Name);
-                System.out.println("He is " +I1.Age);
+                I1.Time = 12;
+
+                System.out.println("He is " +I1.age);
                 System.out.println("He teaches " + I1.Class);
+                System.out.println("He teaches at " + I1.Time + "PM");
     }
 }
