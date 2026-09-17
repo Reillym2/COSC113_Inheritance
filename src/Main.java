@@ -20,11 +20,11 @@
 
                 Instructor I1 = new Instructor();
 
-                I1.Class = "COSC-113" ;
+                I1.Subject = "COSC-113" ;
                 I1.Time = 12;
 
                 System.out.println("He is " +I1.age);
-                System.out.println("He teaches " + I1.Class);
+                System.out.println("He teaches " + I1.Subject);
                 System.out.println("He teaches at " + I1.Time + "PM");
     }
 }

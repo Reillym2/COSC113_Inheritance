@@ -1,6 +1,6 @@
 public class Instructor extends Person{
 
-    String Class;
+    String Subject;
     int Time;
     Instructor(){
 
